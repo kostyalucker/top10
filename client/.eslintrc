@@ -1,0 +1,20 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2020, // Use the latest ecmascript standard
+        "sourceType": "module", // Allows using import/export statements
+        "ecmaFeatures": {
+            "jsx": true // Enable JSX since we're using React
+        }
+    },
+    "rules": {
+        "no-console": "error",
+        "no-unused-vars": "off"
+    }
+}
